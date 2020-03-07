@@ -1,4 +1,82 @@
-h1{
-    color: red;
-    border: 1px solid green;
+
+.mobile__header {
+    width: 320px;
+    display:flex;
+    flex-direction:column;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile__header::after {
+    content: "";
+    opacity: 0.9;
+    background-color:#0c0e39;
+    position: absolute;
+    width: 320px;
+    height: 570px;
+}
+
+.image__header {
+width: 320px;
+    height: 570px;
+}
+.mobile__logo {
+    position: absolute;
+    width: 132px;
+    padding-top: 30px;
+    left: 94px;
+    z-index: 2;
+}
+.header__title{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Open Sans Regular, sans-serif";
+    z-index: 2;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    width:320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    top: 206px;
+}
+@font-face {
+    font-family: "Open Sans Regular, sans-serif";
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+}
+.title__header {
+    width: 210px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 400px;
+    width: 320px;
+
+}
+.mobile__button{
+    width: 280px;
+    height: 35px;
+    background-color: #5c42af;
+    border: none;
+    border-radius: 74px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mob__text__button{
+    font-size: 7px;
+    font-family: "Open Sans Regular, sans-serif";
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.mob__button__text{
+
 }
